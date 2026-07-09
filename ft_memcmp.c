@@ -32,6 +32,7 @@
  }
 
  /*
+ compare memory areas name 
  const void * prebačen u const unsigned char *: Odlično. Pošto funkcija upoređuje sirovu memoriju bajt po bajt, morao si da skloniš void i koristiš unsigned char jer je to jedini način da bezbedno radiš indeksiranje (str1[i]).
 
 Nema provere za \0: Ponovo tačno! Pošto je ovo memcmp (Memory Compare), a ne strncmp, funkciju uopšte ne zanima gde se string završava. Ona slepo poredi n bajtova, makar unutra bile same nule.
