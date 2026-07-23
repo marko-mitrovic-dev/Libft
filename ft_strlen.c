@@ -10,6 +10,7 @@ int ft_strlen(const char *c)
     return (i);
 }
 
+/*
 int main()
 {
     char a[20]="program";
@@ -17,3 +18,4 @@ int main()
     printf("length of program is: %d\n", ft_strlen(a));
     return (0);
 }
+    */
