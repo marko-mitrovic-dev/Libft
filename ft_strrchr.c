@@ -26,12 +26,13 @@ char *ft_strrchr(const char *s, int c)
     return(last);
 }
 
+/*
 int main(){
     char s[] = "Markokvic";
     printf("this is string %s after function %s\n", s, ft_strrchr(s, 'k'));
 
 }
-
+*/
 /*
 it is searching for the character parsed to the function,
 and returning a pointer to that charachter 

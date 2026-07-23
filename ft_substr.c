@@ -40,7 +40,7 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
 }
 
 
-
+/*
 int	main(void)
 {
 	char	*str = "Hello World!";
@@ -54,6 +54,7 @@ int	main(void)
 	free(res);
 	return (0);
 }
+*/
 
 /*
 So, substr, is extracting parts of the string from original string.

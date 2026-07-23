@@ -20,12 +20,14 @@ char *ft_strchr(const char *s, int c)
 
     return (NULL);
 }
-
+/* 
 int main(){
     char c[] = "Markovic";
     printf("this is string %s after function %s\n", c, ft_strchr(c, 'k'));
 
 }
+
+*/
 /*
 so this function returns pointer on the letter we search in the string
 and in I printf it it will show from pointer untill the end of the string
