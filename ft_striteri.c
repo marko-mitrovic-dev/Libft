@@ -29,6 +29,10 @@ if (s == NULL || f == NULL)
     also additional function is void, and argument in that function has a pointer char* (here)
     so that is why in my test func i am using *c
     no need for malloc, because I am changing the original string
+
+    always cheching are pointers pointing an empty space in memory or no! 
+    (s == NULL || f == NULL) -> just for pointers, ONLY they can point in empty space!
+
 */
 void	my_test_func(unsigned int i, char *c)
 {
