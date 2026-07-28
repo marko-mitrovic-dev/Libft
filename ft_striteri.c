@@ -20,18 +20,23 @@ void ft_striteri(char *s, void (*f)(unsigned int, char*))
 }
 
 
+/*
+diference between strmapi and striteri is basically this: 
+if (s == NULL || f == NULL)
+        return (NULL);
+        this is void function so it need just RETURN  empty no values
 
+    also additional function is void, and argument in that function has a pointer char* (here)
+    so that is why in my test func i am using *c
+    no need for malloc, because I am changing the original string
+*/
 void	my_test_func(unsigned int i, char *c)
 {
 	if (i % 2 == 0 && (*c >= 'a' && *c <= 'z'))
 		*c = *c - 32;
 }
 
-/*
-if (s == NULL || f == NULL)
-        return (NULL);
-        this is void function so it need just RETURN  empty no values
-        */
+
 // 3. MAIN ZA TEST
 int	main(void)
 {
