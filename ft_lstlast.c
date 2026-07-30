@@ -21,7 +21,7 @@ here i am checking all the way untill there is lst->next
 so when I come to the NULL while loop breaks and it gets out of it
 ok
 */
-
+/*
 
 int	main(void)
 {
@@ -55,3 +55,4 @@ int	main(void)
 
 	return (0);
 }
+    */
