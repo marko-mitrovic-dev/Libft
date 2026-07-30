@@ -18,7 +18,7 @@ t_list *ft_lstnew(void *content)
     return (new_node);
 }
 
-
+/*
 int	main(void)
 {
 	// 1. Pozivamo tvoju funkciju i kreiramo novi čvor sa tekstom "Hello 42"
@@ -48,3 +48,5 @@ int	main(void)
 
 	return (0);
 }
+
+*/
