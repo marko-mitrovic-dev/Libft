@@ -1,6 +1,4 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
+
 #include "libft.h"
 
 
@@ -31,7 +29,7 @@ char *ft_strnstr(const char *big,	const char *little, size_t len)
     }
     return (NULL);
 }
-
+/*
 int main()
 {
     char big[] = "Nemam pojma gde je kljuc";
@@ -42,4 +40,4 @@ int main()
     return (0);
 }
 
-
+*/

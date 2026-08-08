@@ -1,6 +1,4 @@
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
@@ -23,7 +21,7 @@ So just switching pointers
 */
 
 
-
+/*
 
 int	main(void)
 {
@@ -54,3 +52,5 @@ int	main(void)
 
 	return (0);
 }
+
+*/

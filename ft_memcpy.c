@@ -1,5 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
 #include "libft.h"
 
 void *ft_memcpy(void *dest, const void *src, size_t n){
@@ -31,6 +29,7 @@ memory copy is copying some bytes from one to other place
 const void *src - const stands for DO NOT CHANGE src just red it 
 
 */
+/*
 
 int main(){
 
@@ -45,3 +44,4 @@ int main(){
     printf("After memcpy name is here: %s\n", (char *)newname);
 
 }
+    */

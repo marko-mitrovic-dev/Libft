@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 int ft_toupper(int c)
@@ -10,8 +7,11 @@ int ft_toupper(int c)
     return (c);
 }
 
+/*
+
 int main(){
     char c = 'v';
     char result = ft_toupper(c);
     printf("this is small %c after function %c\n",c, result);
 }
+    */

@@ -1,7 +1,4 @@
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
-
 
 void ft_lstadd_back(t_list **lst, t_list *new)
 {
@@ -27,7 +24,7 @@ Da bi ga poslao funkciji sa **, pišeš &head.
 U ft_lstadd_back: Imaš t_list **lst. 
 Da bi ga poslao funkciji sa * (kao ft_lstlast), pišeš *lst.
 */
-
+/*
 int	main(void)
 {
 	t_list	*head;
@@ -56,3 +53,4 @@ int	main(void)
 
 	return (0);
 }
+	*/

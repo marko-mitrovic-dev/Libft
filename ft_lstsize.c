@@ -1,6 +1,4 @@
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 int ft_lstsize(t_list *lst)
 {
@@ -23,7 +21,7 @@ return (counter);
 I dont need this, becuase if list is empty while will return counter that is actually 0;
 */
 
-
+/*
 
 int	main(void)
 {
@@ -54,4 +52,4 @@ int	main(void)
 
 	return (0);
 }
-
+*/

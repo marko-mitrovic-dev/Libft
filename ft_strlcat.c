@@ -1,17 +1,6 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
+
 #include "libft.h"
 
-size_t ft_strlen(const char *str)
-{
-    int i;
-    i = 0;
-    while (str[i] != '\0'){
-        i++;
-    }
-    return(i);
-}
 
 size_t ft_strlcat(char *dest, const char *src, size_t destsize){
 
@@ -40,7 +29,7 @@ size_t ft_strlcat(char *dest, const char *src, size_t destsize){
 
 
 }
-
+/*
 int main (){
 
     char src[] = "Markovic";
@@ -48,13 +37,12 @@ int main (){
 
     printf("This is before the strlcpy: %s from %s\n", dest, src);
     printf("This is after the strlcpy 3: num is: %ld %s from %s\n", ft_strlcat(dest, src, 15), dest, src);
-    
+}
+    */
     /*
     
     const char *src -  that is locking that src just for READING,
     so dont put const char *dest because you want to use and change dest.
     you can use const char *dest for ft_strlen because it is just for reading the file - string. 
-    
-    */
 
-}
+*/

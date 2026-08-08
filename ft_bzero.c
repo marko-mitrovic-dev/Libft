@@ -1,5 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
 #include "libft.h"
 
 
@@ -24,7 +22,7 @@ bzero - byte zero  set bytes to zero
 Same as memset, but it just put 0 \0 on n places 
 size_t is size type unsigned integer data type represent the size of any object in bytes
 */
-
+/*
 int main()
 {
     unsigned char ime[] = "Marko Mitrovic";
@@ -45,3 +43,4 @@ return(0);
 
 
 }
+*/

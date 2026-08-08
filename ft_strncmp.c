@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 
@@ -26,7 +23,7 @@ int ft_strncmp(const char *s1, const char *s2, size_t n)
 
     return(0);
 }
-
+/*
 int main(){
     char s1[] = "Marko";
     char s2[] = "Marco";
@@ -35,10 +32,10 @@ int main(){
 
 }
 
-/*
-This function just compare 2 strings for n bytes
-string number compare strncmp
-changing character to unsigned char just when deduct becuase 
-just there I am comparing 2 characters before s1 is just a pointer
+
+// This function just compare 2 strings for n bytes
+// string number compare strncmp
+// changing character to unsigned char just when deduct becuase 
+// just there I am comparing 2 characters before s1 is just a pointer
 
 */

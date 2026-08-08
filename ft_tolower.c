@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 int ft_tolower(int c)
@@ -9,9 +6,10 @@ int ft_tolower(int c)
         c += 32;
     return (c);
 }
-
+/*
 int main(){
     char c = 'V';
     char result = ft_tolower(c);
     printf("this is small %c after function %c\n", c, result);
 }
+    */

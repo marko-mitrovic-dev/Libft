@@ -1,7 +1,5 @@
-#include <unistd.h>
-#include <stdio.h>
 #include "libft.h"
-#include <stdlib.h>
+
 
 void *ft_memmove(void *dest, const void *src, size_t len){
 
@@ -35,6 +33,8 @@ void *ft_memmove(void *dest, const void *src, size_t len){
     return(dest);
 }
 
+/*
+
 int main(){
     char name[] = "marko mitrovic";
 
@@ -46,3 +46,4 @@ int main(){
 
     printf("After memcpy name is here: %s\n", (char *)newname);
 }
+    */

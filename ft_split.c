@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 
@@ -59,7 +56,7 @@ char **ft_split(char const *s, char c)
     return (tab);
 
 }
-
+/*
 int main()
 {
     char s[] = " this   is  new string  ";
@@ -93,7 +90,7 @@ int main()
 
 
 
-
+*/
 
 
 

@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 
@@ -36,13 +33,15 @@ it makes new space in memory, and iterrates through the string,
 after that it changes new string applying new function to each character.
 */
 
+/*
 char	my_test_func(unsigned int i, char c)
 {
 	if (i % 2 == 0 && (c >= 'a' && c <= 'z'))
 		return (c - 32);
 	return (c);
 }
-
+*/
+/*
 // 3. MAIN ZA TEST
 int	main(void)
 {
@@ -59,7 +58,7 @@ int	main(void)
 	return (0);
 }
 
-
+*/
 
 
 

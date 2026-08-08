@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "libft.h"
 
 int ft_isalnum(int c)
@@ -17,11 +16,11 @@ int	ft_isalnum(int c)
 }
     */
 
-
+/*
 int main ()
 {
     printf("isalnum('a') = %d\n", ft_isalnum('a'));  // 1
     printf("isalnum('1') = %d\n", ft_isalnum('1'));  // 1
     printf("isalnum('@') should return 0 = %d\n", ft_isalnum('@'));  // 0
     printf("isalnum('Z') = %d\n", ft_isalnum('Z'));  // 1
-}
+} */

@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "libft.h"
 
 
@@ -18,7 +17,7 @@ there i could do write function or I could do ft_putchar_fd function
     
 */
 
-
+/*
 int main()
 {
     char s[] = "Hello world!";
@@ -27,3 +26,4 @@ int main()
     write(1, "\n", 1);
     return (0);
 }
+    */

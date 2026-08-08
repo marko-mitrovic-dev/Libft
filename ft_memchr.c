@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 
@@ -24,7 +21,7 @@ void *ft_memchr(const void *s, int c, size_t n)
     return (NULL);
 }
 
-
+/*
 
 int main(){
     char s1[] = "Markovic";
@@ -40,6 +37,7 @@ int main(){
     printf("Adress: %p, letter : \\0 (kraj stringa)\n", (void *)&s1[i]);
     return (0);
 }
+    */
 
 /*
 it is almost identical like strchr but it doesnt stop on \0

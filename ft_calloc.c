@@ -1,6 +1,4 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
+
 #include "libft.h"
 
 
@@ -34,6 +32,7 @@ void *ft_calloc(size_t nmemb, size_t size)
     return(ptr);
 
 }
+/*
 int main()
 {
     // Alociramo niz od 3 karaktera
@@ -50,6 +49,7 @@ int main()
     }
     return (0);
 }
+    */
 /*
 nmemb je skraćeno od "Number of members" (ili Number of elements)
 malloc ti da "prljavu" memoriju (unutra može da bude bilo kakvo đubre

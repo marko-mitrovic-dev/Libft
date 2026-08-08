@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "libft.h"
 
 void ft_putnbr_fd(int n, int fd)
@@ -21,7 +20,7 @@ void ft_putnbr_fd(int n, int fd)
         ft_putchar_fd(n + '0', fd);
     }
 }
-
+/*
 int main()
 {
     int i = 123;
@@ -29,5 +28,5 @@ int main()
     ft_putnbr_fd(i, 1);
     return (0);
 }
-
+*/
 

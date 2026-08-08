@@ -1,6 +1,4 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
+
 #include "libft.h"
 
 
@@ -31,7 +29,7 @@ char *ft_itoa(int n)
 
 
    num = n;
-   len = get_len(n);
+   len = get_len(num);
    str = malloc ((len + 1) * sizeof(char));
    if (str == NULL)
    {
@@ -61,6 +59,7 @@ char *ft_itoa(int n)
 
 }
 
+/*
 
 int main()
 {
@@ -75,4 +74,5 @@ int main()
     return(0);
 
 
-}
+} 
+    */

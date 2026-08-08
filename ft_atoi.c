@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 int ft_atoi(const char *nptr)
@@ -35,7 +32,7 @@ int ft_atoi(const char *nptr)
 
 	return (result * sign);
 }
-
+/*
 int main()
 {
     char test1[] = "    42";
@@ -46,6 +43,8 @@ int main()
 
     return (0);
 }
+
+*/
 /*
 
 Naziv nptr je skraćenica od "Number Pointer" (pointer na broj).

@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 
@@ -24,12 +21,15 @@
     return (0);
  }
 
+ /*
+
  int main(){
     char s1[] = "Markovic";
     char s2[] = "Martovic";
 
     printf("this is string number compare %s and %s\n after function %d\n", s1, s2, ft_memcmp(s1, s2, 4));
  }
+    */
 
  /*
  compare memory areas name 

@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "libft.h"
 
 
@@ -37,7 +34,7 @@ char *ft_strdup(const char *s)
     return (copy);
 }
 
-
+/*
 int main()
 {
     char string [] = "MARKO";
@@ -51,3 +48,4 @@ int main()
 
     return (0);
 }
+    */

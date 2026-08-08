@@ -40,7 +40,7 @@ void	my_test_func(unsigned int i, char *c)
 		*c = *c - 32;
 }
 
-
+/*
 // 3. MAIN ZA TEST
 int	main(void)
 {
@@ -56,3 +56,4 @@ int	main(void)
 
 	return (0);
 }
+    */

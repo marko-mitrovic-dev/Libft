@@ -1,5 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
 #include "libft.h"
 
 void *ft_memset(void *b, int c, size_t len){
@@ -29,7 +27,7 @@ we have raturnning void pointer (void *) as function
 just because they wanted to put it in printf and you could see in one line 
 to make it shorter insted on two lines
 */
-
+/*
 int main(){
 
     char ime[] = "MITROVICMARKO";
@@ -51,3 +49,4 @@ int main(){
     }
     return(0);
 }
+    */
